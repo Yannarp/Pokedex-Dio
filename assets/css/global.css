@@ -1,0 +1,24 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    background-image: linear-gradient(240deg, #2084fd 0, #5e7ef8 6.25%, #8076f0 12.5%, #9a6ee7 18.75%, #b066dc 25%, #c25ecf 31.25%, #d056c1 37.5%, #dc4eb2 43.75%, #e548a2 50%, #eb4492 56.25%, #ef4282 62.5%, #f14372 68.75%, #f04762 75%, #ed4d52 81.25%, #e85443 87.5%, #e25b34 93.75%, #da6325 100%);
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
